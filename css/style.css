@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Dancing+Script:wght@400;500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+main{
+    width: 80%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20%;
+}
+
+.cabecario{
+    background-image: url('../assets/cofee.jpg');
+    width: 60vw;
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.24);
+-webkit-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.24);
+-moz-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.24);
+}
+
+.titulo{
+    align-self: flex-end;
+    margin: 0 0 3% 0;
+    padding: 2% 2% 2% 4%;
+    background-color: #BF571B99;
+    color: #fff;
+    font-size: 22px;
+}
+
+section{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+
+.conteudo{
+    display: flex;
+    gap: 2%;
+}
+
+.titulo-conteudo{
+    border-bottom: 2px solid #591902;
+    width: 35%;
+}
+
+.img-conteudo{
+    width: 14%;
+    border-radius: 12px;
+    box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.24);
+-webkit-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.24);
+-moz-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.24);
+}
+
+.txt-conteudo{
+    font-size: 12px;
+    font-family: 'Dancing Script', cursive;
+}
+
+table{
+    margin-top: 4%;
+    border-collapse: collapse;
+    font-family: 'Dancing Script', cursive;
+}
+
+table th, td{
+    padding: 1%;
+    border: 1px solid #fff;
+}
+
+.tab-tit{
+    font-weight: 800;
+}
+
+thead{
+    background-color: #591902;
+    color: #fff;
+}
+
+tbody{
+    background-color: #F29D35;
+}
